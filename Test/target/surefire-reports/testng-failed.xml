@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]" parallel="none">
+  <listeners>
+    <listener class-name="com.project.utils.ExtentListeners"/>
+  </listeners>
+  <test name="Assessment Suite(failed)" parallel="none">
+    <classes>
+      <class name="com.project.testcases.TestCountryField">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.project.testcases.TestCountryField -->
+      <class name="com.project.testcases.CreateNewAccount">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.project.testcases.CreateNewAccount -->
+      <class name="com.project.testcases.TestSearch">
+        <methods>
+          <include name="enterGPlus" invocation-numbers="0"/>
+          <include name="enterReview" invocation-numbers="0"/>
+          <include name="enterPinterest" invocation-numbers="0"/>
+          <include name="enterFaceBook" invocation-numbers="0"/>
+          <include name="LaunchBrowser"/>
+          <include name="searchProduct" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.project.testcases.TestSearch -->
+      <class name="com.project.testcases.TestLogin">
+        <methods>
+          <include name="testValidLogin" invocation-numbers="0"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.project.testcases.TestLogin -->
+      <class name="com.project.testcases.PurchaseProducts">
+        <methods>
+          <include name="createOrder" invocation-numbers="0"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.project.testcases.PurchaseProducts -->
+    </classes>
+  </test> <!-- Assessment Suite(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

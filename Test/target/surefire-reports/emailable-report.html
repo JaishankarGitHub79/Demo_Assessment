@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite1</th></tr><tr><td><a href="#t0">Assessment Suite</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">7</td><td class="num">156,691</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Assessment Suite &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.project.testcases.PurchaseProducts</td><td><a href="#m0">createOrder</a></td><td rowspan="1">1609713126678</td><td rowspan="1">21717</td></tr><tr class="failedodd"><td rowspan="1">com.project.testcases.TestLogin</td><td><a href="#m1">testValidLogin</a></td><td rowspan="1">1609713188890</td><td rowspan="1">1598</td></tr><tr class="failedeven"><td rowspan="5">com.project.testcases.TestSearch</td><td><a href="#m2">enterFaceBook</a></td><td rowspan="1">1609713229465</td><td rowspan="1">2153</td></tr><tr class="failedeven"><td><a href="#m3">enterGPlus</a></td><td rowspan="1">1609713239448</td><td rowspan="1">2081</td></tr><tr class="failedeven"><td><a href="#m4">enterPinterest</a></td><td rowspan="1">1609713218211</td><td rowspan="1">3036</td></tr><tr class="failedeven"><td><a href="#m5">enterReview</a></td><td rowspan="1">1609713208886</td><td rowspan="1">1816</td></tr><tr class="failedeven"><td><a href="#m6">searchProduct</a></td><td rowspan="1">1609713169053</td><td rowspan="1">11636</td></tr><tr><th colspan="4">Assessment Suite &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.project.testcases.CreateNewAccount</td><td><a href="#m7">accountSetup</a></td><td rowspan="1">1609713093823</td><td rowspan="1">9613</td></tr><tr class="passedodd"><td rowspan="1">com.project.testcases.TestCountryField</td><td><a href="#m8">checkCountry</a></td><td rowspan="1">1609713111161</td><td rowspan="1">6298</td></tr><tr class="passedeven"><td rowspan="1">com.project.testcases.TestLogin</td><td><a href="#m9">testInValidLogin</a></td><td rowspan="1">1609713198278</td><td rowspan="1">3013</td></tr><tr class="passedodd"><td rowspan="1">com.project.testcases.TestSearch</td><td><a href="#m10">searchManufacturer</a></td><td rowspan="1">1609713156423</td><td rowspan="1">4958</td></tr></tbody></table><h2>Assessment Suite</h2><h3 id="m0">com.project.testcases.PurchaseProducts#createOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;JAISHANDELL&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 15e6ca627ffd1f48a1aa8f6ef866d30d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.project.pages.ProductPage.proceedToCheckout(ProductPage.java:173)
+	at com.project.testcases.PurchaseProducts.createOrder(PurchaseProducts.java:63)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.project.testcases.TestLogin#testValidLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign out&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;JAISHANDELL&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50708}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b31bbf16b4f8d20a44d3e393a4fd81ea
+*** Element info: {Using=link text, value=Sign out}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at com.project.pages.CreateAccountPage.verifyLogout(CreateAccountPage.java:264)
+	at com.project.testcases.TestLogin.testValidLogin(TestLogin.java:57)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.project.testcases.TestSearch#enterFaceBook</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@itemprop=&apos;name&apos;]/a&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;JAISHANDELL&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7409dfe7300d3c2a5e3e81262540c37c
+*** Element info: {Using=xpath, value=//*[@itemprop=&apos;name&apos;]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.project.pages.ProductPage.clickProduct1(ProductPage.java:94)
+	at com.project.testcases.TestSearch.enterFaceBook(TestSearch.java:132)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.project.testcases.TestSearch#enterGPlus</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@itemprop=&apos;name&apos;]/a&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;JAISHANDELL&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 78424696a89c826fa9b76c5e7d8af07c
+*** Element info: {Using=xpath, value=//*[@itemprop=&apos;name&apos;]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.project.pages.ProductPage.clickProduct1(ProductPage.java:94)
+	at com.project.testcases.TestSearch.enterGPlus(TestSearch.java:151)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.project.testcases.TestSearch#enterPinterest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@itemprop=&apos;name&apos;]/a&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;JAISHANDELL&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c49a9099ad4f6bbc1ca84dab561a301a
+*** Element info: {Using=xpath, value=//*[@itemprop=&apos;name&apos;]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.project.pages.ProductPage.clickProduct1(ProductPage.java:94)
+	at com.project.testcases.TestSearch.enterPinterest(TestSearch.java:111)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.project.testcases.TestSearch#enterReview</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@itemprop=&apos;name&apos;]/a&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;JAISHANDELL&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 189e3e7067fd1ff2af957a6a8cf36050
+*** Element info: {Using=xpath, value=//*[@itemprop=&apos;name&apos;]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.project.pages.ProductPage.clickProduct1(ProductPage.java:94)
+	at com.project.testcases.TestSearch.enterReview(TestSearch.java:87)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.project.testcases.TestSearch#searchProduct</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id=&apos;center_column&apos;]/h1/span[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.project.pages.CreateAccountPage.clickSearchProduct(CreateAccountPage.java:300)
+	at com.project.testcases.TestSearch.searchProduct(TestSearch.java:69)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;center_column&apos;]/h1/span[2]&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;JAISHANDELL&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 59155caa86f44faa710edce6cdd0aa09
+*** Element info: {Using=xpath, value=//*[@id=&apos;center_column&apos;]/h1/span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 29 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.project.testcases.CreateNewAccount#accountSetup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.project.testcases.TestCountryField#checkCountry</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.project.testcases.TestLogin#testInValidLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">com.project.testcases.TestSearch#searchManufacturer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search &quot;Gap&quot;, manufacturer=Gap}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="189207" started-at="2020-12-31T02:05:46Z" finished-at="2020-12-31T02:08:55Z">
+    <groups>
+    </groups>
+    <test name="Assessment Suite" duration-ms="189207" started-at="2020-12-31T02:05:46Z" finished-at="2020-12-31T02:08:55Z">
+      <class name="com.project.testcases.PurchaseProducts">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.PurchaseProducts@55536d9e]" name="LaunchBrowser" is-config="true" duration-ms="8027" started-at="2020-12-30T21:06:21Z" finished-at="2020-12-30T21:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="createOrder(java.util.Hashtable)[pri:1, instance:com.project.testcases.PurchaseProducts@55536d9e]" name="createOrder" duration-ms="22440" started-at="2020-12-30T21:06:29Z" data-provider="getTestData" finished-at="2020-12-30T21:06:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+      </class> <!-- com.project.testcases.PurchaseProducts -->
+      <class name="com.project.testcases.TestCountryField">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.TestCountryField@747edf66]" name="LaunchBrowser" is-config="true" duration-ms="6876" started-at="2020-12-30T21:06:07Z" finished-at="2020-12-30T21:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="checkCountry(java.util.Hashtable)[pri:0, instance:com.project.testcases.TestCountryField@747edf66]" name="checkCountry" duration-ms="6536" started-at="2020-12-30T21:06:14Z" data-provider="getTestData" finished-at="2020-12-30T21:06:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCountry -->
+      </class> <!-- com.project.testcases.TestCountryField -->
+      <class name="com.project.testcases.CreateNewAccount">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.CreateNewAccount@346d61be]" name="LaunchBrowser" is-config="true" duration-ms="7347" started-at="2020-12-30T21:05:47Z" finished-at="2020-12-30T21:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="accountSetup(java.util.Hashtable)[pri:0, instance:com.project.testcases.CreateNewAccount@346d61be]" name="accountSetup" duration-ms="13040" started-at="2020-12-30T21:05:54Z" data-provider="getTestData" finished-at="2020-12-30T21:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountSetup -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.project.testcases.CreateNewAccount@346d61be]" name="CloseBrowser" is-config="true" duration-ms="69" started-at="2020-12-30T21:06:07Z" finished-at="2020-12-30T21:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.project.testcases.CreateNewAccount -->
+      <class name="com.project.testcases.TestLogin">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.TestLogin@62230c58]" name="LaunchBrowser" is-config="true" duration-ms="8230" started-at="2020-12-30T21:07:19Z" finished-at="2020-12-30T21:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="testValidLogin(java.util.Hashtable)[pri:1, instance:com.project.testcases.TestLogin@62230c58]" name="testValidLogin" duration-ms="5006" started-at="2020-12-30T21:07:27Z" data-provider="getTestData" finished-at="2020-12-30T21:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.TestLogin@62230c58]" name="LaunchBrowser" is-config="true" duration-ms="7055" started-at="2020-12-30T21:07:32Z" finished-at="2020-12-30T21:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="testInValidLogin(java.util.Hashtable)[pri:2, instance:com.project.testcases.TestLogin@62230c58]" name="testInValidLogin" duration-ms="2622" started-at="2020-12-30T21:07:39Z" data-provider="getTestData" finished-at="2020-12-30T21:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidLogin -->
+      </class> <!-- com.project.testcases.TestLogin -->
+      <class name="com.project.testcases.TestSearch">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.TestSearch@3d1cfad4]" name="LaunchBrowser" is-config="true" duration-ms="7230" started-at="2020-12-30T21:06:51Z" finished-at="2020-12-30T21:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="searchManufacturer(java.util.Hashtable)[pri:1, instance:com.project.testcases.TestSearch@3d1cfad4]" name="searchManufacturer" duration-ms="5319" started-at="2020-12-30T21:06:59Z" data-provider="getTestData" finished-at="2020-12-30T21:07:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchManufacturer -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.TestSearch@3d1cfad4]" name="LaunchBrowser" is-config="true" duration-ms="7058" started-at="2020-12-30T21:07:04Z" finished-at="2020-12-30T21:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="searchProduct(java.util.Hashtable)[pri:1, instance:com.project.testcases.TestSearch@3d1cfad4]" name="searchProduct" duration-ms="8025" started-at="2020-12-30T21:07:11Z" data-provider="getTestData" finished-at="2020-12-30T21:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.TestSearch@3d1cfad4]" name="LaunchBrowser" is-config="true" duration-ms="7116" started-at="2020-12-30T21:07:42Z" finished-at="2020-12-30T21:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="enterReview(java.util.Hashtable)[pri:3, instance:com.project.testcases.TestSearch@3d1cfad4]" name="enterReview" duration-ms="7658" started-at="2020-12-30T21:07:49Z" data-provider="getTestData" finished-at="2020-12-30T21:07:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterReview -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.TestSearch@3d1cfad4]" name="LaunchBrowser" is-config="true" duration-ms="7313" started-at="2020-12-30T21:07:57Z" finished-at="2020-12-30T21:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="enterPinterest(java.util.Hashtable)[pri:4, instance:com.project.testcases.TestSearch@3d1cfad4]" name="enterPinterest" duration-ms="10515" started-at="2020-12-30T21:08:04Z" data-provider="getTestData" finished-at="2020-12-30T21:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPinterest -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.TestSearch@3d1cfad4]" name="LaunchBrowser" is-config="true" duration-ms="8602" started-at="2020-12-30T21:08:15Z" finished-at="2020-12-30T21:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="enterFaceBook(java.util.Hashtable)[pri:5, instance:com.project.testcases.TestSearch@3d1cfad4]" name="enterFaceBook" duration-ms="14602" started-at="2020-12-30T21:08:23Z" data-provider="getTestData" finished-at="2020-12-30T21:08:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFaceBook -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.project.testcases.TestSearch@3d1cfad4]" name="LaunchBrowser" is-config="true" duration-ms="7777" started-at="2020-12-30T21:08:38Z" finished-at="2020-12-30T21:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="enterGPlus(java.util.Hashtable)[pri:6, instance:com.project.testcases.TestSearch@3d1cfad4]" name="enterGPlus" duration-ms="9663" started-at="2020-12-30T21:08:46Z" data-provider="getTestData" finished-at="2020-12-30T21:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=test123, cell=1234567890, addlastname=usertest, fbUser=test, loginErrorMessage=There is 1 error, fbPass=test, address=123 test street, verifyLogout=Sign out, state=Georgia, lastname=usertest, cindex=-, pintUser=test, sResult=            1 result has been found.        , searchItem3=skirt, pintPass=test, searchItem2=shirt, searchItem1=Blouse, loginEmail=testwebsite15@test.com, email=testuser@test.com, addfirstname=testuser, country=United States, reviewTitle=test, productResult=Blouse, city=Marietta, orderConfirmation=Your order on My Store is complete., firstname=testuser, commentAlert=div, zip=30064, loginPassword=test123, manSearchResults=No results were found for your search "Gap", manufacturer=Gap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterGPlus -->
+      </class> <!-- com.project.testcases.TestSearch -->
+    </test> <!-- Assessment Suite -->
+  </suite> <!-- Suite1 -->
+</testng-results>
